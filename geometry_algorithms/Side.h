@@ -14,7 +14,6 @@
 /**
  * This file contains the relative position of point to segment.
  */
-
 enum class Side{
     // When the segment's length is zero, it's useless to determine the side, so we use DEFAULT_NO_SIDE to show.
     DEFAULT_NO_SIDE=0,

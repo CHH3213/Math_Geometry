@@ -77,8 +77,7 @@ Point GetIntersectionPoint (const Segment &s1 , const Segment &s2) {
     if ( side_4 == Side::WITHIN ) {
         return s2.end;
     }
-    throw std::runtime_error ("Two segments are not collinear but still overlap.");
-
+    throw std::runtime_error ("Something is wrong, please check.");
 }
 
 
